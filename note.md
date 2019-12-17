@@ -68,7 +68,7 @@
             f.read()
             f.close()
 
-- network 库
+- network 库 (import network)
     - 对网卡进行操作
     - 常用命令
     
@@ -87,13 +87,14 @@
             sta_if.active(False)                            # 关闭热点
             
                 
-- webrepl_setup 库
+- webrepl_setup 库(import webrepl_setup)
     - 操作web界面
     - 输入 e 
     - 输入 密码
+    - 确认 密码
     - 输入 y
-    - 浏览器访问 webrepl 网页（http://micropython.org/webrepl/）
-    - 修改 IP 地址
+    - 浏览器访问 webrepl 网页( http://micropython.org/webrepl/ )
+    - 修改 IP 地址, 登录成功
     
 - time 库
     - 操作时间的函数
